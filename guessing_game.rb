@@ -14,7 +14,7 @@ class Guessing_game
       :correct
     elsif (number > @answer) # Check if the guess is higher
       @solved = false
-      return :high
+      :high
     elsif(number<@answer) # Check if the guess is lower
       @solved = false
       :low
