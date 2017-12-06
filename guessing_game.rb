@@ -5,7 +5,8 @@ class Guessing_game
     @answer = answer
     @solved = false
     # Validate input
-    raise "Answer must be between 1 and 100" unless VALID_Numbers.include? @answer
+    raise "Answer must be between 1 and 100" unless VALID_Numbers.include? \
+    @answer
   end
 
   def guess ( number )
